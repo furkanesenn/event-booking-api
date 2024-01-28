@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/2 
+content-type: application/json 
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1cmthbmVzZW4xOTAwQGdtYWlsLmNvbSIsImV4cCI6MTcwNjQzOTAxOSwidXNlcklkIjoxfQ.HY82MdhLT6r-VCieOMcYIlTXiU-rkuDe34iCb1dTdVw
+
+{
+    "name": "Furkan",
+    "description": "Esen",
+    "location": "Event Location",
+    "dateTime": "2020-01-01T15:30:00.000Z"
+}
